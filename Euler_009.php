@@ -1,0 +1,2 @@
+<?php $f=$_GET[n];do{$z+=1;$y=$z*$z;for($a=1;$a<$z/sqrt(2);$a++){$x=sqrt($y-$a*$a);if(ceil($x)==$x){if($a+$z+$x==$f){echo$a*$z*$x;exit;}}}
+for($b=1;$b<$y/2+1;$b++){$t=sqrt($y+$b*$b);if(ceil($t)==$t){if($z+$t+$b==$f){echo$z*$t*$b;exit;}}}}while($z>0);?>

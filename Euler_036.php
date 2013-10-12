@@ -1,0 +1,1 @@
+<?php for($a=1;$a<$_GET[n];$a++)if(decbin($a)==ltrim(strrev(decbin($a)),0)&&strrev($a)==$a)$t+=$a;echo$t;?>

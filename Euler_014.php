@@ -1,0 +1,1 @@
+<?php $c=$d=2;do{if($c%2!=0)$c=$c*3+1;else$c/=2;$x++;if($c==1){if($x>$t){$t=$x;$n=$d;}$d++;$c=$d;$x=1;}}while($d<$_GET[n]);echo$n."#".$t;?>

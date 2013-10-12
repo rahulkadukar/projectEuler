@@ -1,0 +1,1 @@
+<?php $n=$_GET[n];for($a=0;$a<strlen($n)-4;$a++){$m=1;for($b=0;$b<5;$b++){$x[b]=substr($n,$a+$b,1);$m=$m*$x[b];}if($m>$t)$t=$m;}echo $t;?>

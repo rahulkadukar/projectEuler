@@ -1,0 +1,1 @@
+<?php $t=0;for($a=1;$a<=$_GET[n];$a++)$t=gmp_strval(gmp_add($t,gmp_strval(gmp_pow($a,$a))));echo strrev((substr(strrev($t),0,10)));?>

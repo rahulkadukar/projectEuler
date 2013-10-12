@@ -1,0 +1,1 @@
+<?php $l=$_GET[l];$u=$_GET[u];for($a=$l;$a<$u;$a++){for($b=$l;$b<$u;$b++){$c=$a*$b;if($c==strrev($c))if($t<$c)$t=$c;}}echo$t;?>

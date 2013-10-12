@@ -1,0 +1,1 @@
+<?php $a=3;while($d<$_GET[n]-1){$c=A;for($b=3;$b<=sqrt($a);$b+=2){if($a%$b==0){$c=X;break;}}if($c!=X){$t=$a;$d++;}$a+=2;}echo$t;?>
