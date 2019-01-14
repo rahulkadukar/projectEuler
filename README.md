@@ -10,6 +10,10 @@ A single number will be output which can be checked against Project Euler
 ## Contact Me
 Drop me a message on rahulkadukar@yahoo.com and I will get back to you
 
+## To-do
+* Add the solutions to these problems in JavaScript and C++. This will be a good learning exercise
+* Make the JS client runnable by exposing this repository as a github hosted site
+
 ## License
 
 MIT
